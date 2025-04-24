@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "\\    /\\\n";
+    cout << " )  ( ')\n";
+    cout << "(  /  )\n";
+    cout << " \\(__)|\n";
+    return 0;
+} //이건 좀 황당하네요.. cout을 이용해 출력하였으며, 줄바꿈에 주의하여야하고.. \\ 이렇게 두개를 사용했을때 하나가 출력됩니다.
