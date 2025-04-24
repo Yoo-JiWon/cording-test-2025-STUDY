@@ -1,0 +1,12 @@
+#include<iostream>
+#include <algorithm> // sort 함수 쓰려고 선언하였음
+using namespace std;
+
+int main(){
+    int arr[3];
+    cin >> arr[0] >> arr[1] >> arr[2]; // 앞에서 선언한 배열에 입력받음
+    sort(arr, arr + 3);
+    
+    cout << arr[0] << " " << arr[1] << " " << arr[2]; // 출력 (공백 구분해서 출력하려고 " " 넣어줌)
+    return 0;
+}
